@@ -1,0 +1,5 @@
+first = input()
+second = input()
+length = len(first)
+first, second = int(first, 2), int(second, 2)
+print(format(first ^ second, f"0{length}b"))
