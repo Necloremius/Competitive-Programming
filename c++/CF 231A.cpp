@@ -3,20 +3,12 @@
 using namespace std;
 
 int main(){
-    int count {0};
-    int a;
-    cin >> a;
 
-    for (int counter = 0; counter < a; counter++){
-        int x,y,z;
-        cin >> x >> y >> z;
+    int m,n;
+    cin >> m >> n;
 
-        if (x + y + z > 1){
-            count++;
-        }
+    cout << m*n/2 << endl;
 
-    }
 
-    cout << count << endl;
     return 0;
 }
